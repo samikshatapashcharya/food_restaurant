@@ -59,36 +59,36 @@ const TopNav = () => {
         <AiOutlineClose onClick={() => setSideNav(!sideNav)} size={25}
         className='absolute right-4 top-4 cursor-pointer'
         />
-        <h2 className='text-2xl p-4'>Yum <span className='text-orange-700 font-bold'>Eats</span></h2>
+        <h2 className='text-2xl p-4'>Flavour <span className='text-orange-700 font-bold'>Fusion</span></h2>
           <nav>
             <ul className="flex flex-col p-4 text-gray-900">
                <li className="text-xl py-4 flex">
-                <BsPerson size={25}
-                className='mr-4 text-white bg-black rounded-full'
+                <BsPerson size={30}
+                className='mr-5  text-white bg-orange-600 '
                 />
                 My Account
                </li>
                <li className="text-xl py-4 flex">
-                <TbTruckReturn size={25}
-                className='mr-4 text-white bg-black rounded-full'
+                <TbTruckReturn size={30}
+                className='mr-4 text-white bg-orange-600 square'
                 />
                 Delivery
                </li>
                <li className="text-xl py-4 flex">
-                <MdOutlineFavorite size={25}
-                className='mr-4 text-white bg-black rounded-full'
+                <MdOutlineFavorite size={30}
+                className='mr-4 text-white bg-orange-600 square'
                 />
                 My Favourite
                </li>
                <li className="text-xl py-4 flex">
-                <FaGoogleWallet size={25}
-                className='mr-4 text-white bg-black rounded-full'
+                <FaGoogleWallet size={30}
+                className='mr-4 text-white bg-orange-600 square'
                 />
                 My Wallet
                </li>
                <li className="text-xl py-4 flex">
-                <MdHelp size={25}
-                className='mr-4 text-white bg-black rounded-full'
+                <MdHelp size={30}
+                className='mr-4 text-white bg-orange-600 square'
                 />
                 Help
                </li>
